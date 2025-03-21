@@ -8,18 +8,18 @@
 </head>
 <style>
     .mensaje {
-    font-size: 2rem;
-    color: white;
-    text-align: center;
-    max-width: 700px;
-    margin-bottom: 30px;
-    opacity: 1;
-    transition: opacity 1.5s ease-in-out;
-    position: absolute;
-    top: 20%; /* Ajusta este valor para subir o bajar */
-    left: 50%;
-    transform: translate(-50%, -50%);
-  }
+        font-size: clamp(1.2rem, 3vw, 1.8rem); /* Tamaño ajustable según pantalla */
+        color: white;
+        text-align: center;
+        max-width: 90%;
+        margin-bottom: 30px;
+        opacity: 1;
+        transition: opacity 1.5s ease-in-out;
+        position: absolute;
+        top: 15%; /* Bajamos un poco para mejorar la visibilidad */
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
 </style>
 <body>
   <h1 class="mensaje" id="mensaje">Estas flores son para ti con todo mi amor. 🌻💛</h1>
